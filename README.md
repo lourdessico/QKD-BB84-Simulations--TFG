@@ -16,6 +16,7 @@ This repository contains the code used in the BB84 Quantum Key Distribution prot
  
 - `BB84_Breidbart Basis_bitflip+phaseshift g_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
  
-- `Backend BB84_error Y_g_CASCADE.py`  --> This is the code of a BB84 protocol simulation using IBM's real backend ibm_brisbane. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
+- `Backend BB84_error Y_g_CASCADE.py`  --> This is the code of a BB84 protocol simulation using IBM's real backend ibm_brisbane. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g. Finally, the CASCADE error correction
+protocol is applied.
 
   - The results of this code are saved at `Simulation results.txt`
