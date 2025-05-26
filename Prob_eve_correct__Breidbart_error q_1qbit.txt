@@ -1,0 +1,71 @@
+n = 100	q = 0.1	alpha = 1.0	beta = 0.0	angle = 2.804222980024891
+Prob. Eve correct: (0.81924000±0.00168847)
+Error caused by Eve and q: (0.28721212±0.00339883)
+Theoretical prob. of Eve measuring the right results:	0.82015621
+Theoretical prob. of Bob's measuring the wrong results:	0.28512181
+n = 100	q = 0.1	alpha = 2.0	beta = 1.0	angle = 2.8669698180523002
+Prob. Eve correct: (0.81916000±0.00177835)
+Error caused by Eve and q: (0.27527273±0.00334189)
+Theoretical prob. of Eve measuring the right results:	0.81763844
+Theoretical prob. of Bob's measuring the wrong results:	0.27452769
+n = 100	q = 0.1	alpha = 1.0	beta = 1.0	angle = 2.9155930015836473
+Prob. Eve correct: (0.81418000±0.00178545)
+Error caused by Eve and q: (0.26448485±0.00336742)
+Theoretical prob. of Eve measuring the right results:	0.81224690
+Theoretical prob. of Bob's measuring the wrong results:	0.26716872
+n = 100	q = 0.1	alpha = 0.0	beta = 1.0	angle = 4.712388979309871
+Prob. Eve correct: (0.25116000±0.00189391)
+Error caused by Eve and q: (0.24430303±0.00339250)
+Theoretical prob. of Eve measuring the right results:	0.25000000
+Theoretical prob. of Bob's measuring the wrong results:	0.25000000
+
+
+n = 100	q = 0.2	alpha = 1.0	beta = 0.0	angle = 2.8713823430696466
+Prob. Eve correct: (0.79256000±0.00175826)
+Error caused by Eve and q: (0.29066667±0.00357510)
+Theoretical prob. of Eve measuring the right results:	0.79154759
+Theoretical prob. of Bob's measuring the wrong results:	0.29235310
+n = 100	q = 0.2	alpha = 2.0	beta = 1.0	angle = 2.9621269898967832
+Prob. Eve correct: (0.78404000±0.00191507)
+Error caused by Eve and q: (0.26793939±0.00319900)
+Theoretical prob. of Eve measuring the right results:	0.78675927
+Theoretical prob. of Bob's measuring the wrong results:	0.26974293
+n = 100	q = 0.2	alpha = 1.0	beta = 1.0	angle = 3.0105272970651367
+Prob. Eve correct: (0.78018000±0.00184106)
+Error caused by Eve and q: (0.26181818±0.00321316)
+Theoretical prob. of Eve measuring the right results:	0.78033086
+Theoretical prob. of Bob's measuring the wrong results:	0.26074449
+n = 100	q = 0.2	alpha = 0.0	beta = 1.0	angle = 4.712388979308182
+Prob. Eve correct: (0.25034000±0.00196792)
+Error caused by Eve and q: (0.24303030±0.00320663)
+Theoretical prob. of Eve measuring the right results:	0.25000000
+Theoretical prob. of Bob's measuring the wrong results:	0.25000000
+
+
+n = 100	q = 0.3	alpha = 1.0	beta = 0.0	angle = 2.9513385371877288
+Prob. Eve correct: (0.76948000±0.00186161)
+Error caused by Eve and q: (0.27939394±0.00344670)
+Theoretical prob. of Eve measuring the right results:	0.76925824
+Theoretical prob. of Bob's measuring the wrong results:	0.27896579
+n = 100	q = 0.3	alpha = 2.0	beta = 1.0	angle = 3.033447001915862
+Prob. Eve correct: (0.76260000±0.00189506)
+Error caused by Eve and q: (0.26121212±0.00318936)
+Theoretical prob. of Eve measuring the right results:	0.76563590
+Theoretical prob. of Bob's measuring the wrong results:	0.25967196
+n = 100	q = 0.3	alpha = 1.0	beta = 1.0	angle = 3.0670025559158898
+Prob. Eve correct: (0.76576000±0.00191483)
+Error caused by Eve and q: (0.25309091±0.00351346)
+Theoretical prob. of Eve measuring the right results:	0.76208606
+Theoretical prob. of Bob's measuring the wrong results:	0.25463893
+n = 100	q = 0.3	alpha = 0.0	beta = 1.0	angle = 4.712388979309162
+Prob. Eve correct: (0.25134000±0.00199056)
+Error caused by Eve and q: (0.25072727±0.00339596)
+Theoretical prob. of Eve measuring the right results:	0.25000000
+Theoretical prob. of Bob's measuring the wrong results:	0.25000000
+
+
+n = 100	q = 0.0	alpha = 1.0	beta = 0.0	angle = 2.7488936726152557
+Prob. Eve correct: (0.85324000±0.00159979)
+Error caused by Eve and q: (0.24636364±0.00333863)
+Theoretical prob. of Eve measuring the right results:	0.85355339
+Theoretical prob. of Bob's measuring the wrong results:	0.25000000
