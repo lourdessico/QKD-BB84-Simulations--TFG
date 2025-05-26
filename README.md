@@ -10,10 +10,11 @@ This repository contains the code used in the BB84 Quantum Key Distribution prot
 
     - The results of this code are saved at `Backend_Prob_eve_correct_Breidbart.txt` and `Backend_Detected eavesdropping_Breidbart.txt`, and graphed at `Backend_Prob_deteccion_eve_vs_ñ_Breidbart.png`.
 
-    - `BB84_Breidbart Basis_bitflip p_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip error probability p.
+- `BB84_Breidbart Basis_bitflip p_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip error probability p.
  
-    - `BB84_Breidbart Basis_phaseshift q_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a phaseshift error probability q.
+- `BB84_Breidbart Basis_phaseshift q_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a phaseshift error probability q.
  
-    - `BB84_Breidbart Basis_bitflip+phaseshift g_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
+- `BB84_Breidbart Basis_bitflip+phaseshift g_1qbit.py`  --> This is the code of a BB84 protocol simulation with eavesdropping attack using the Breidbart Basis and AerSimulator. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
  
-    - `Backend BB84_error Y_g_CASCADE.py`  --> This is the code of a BB84 protocol simulation using IBM's real backend ibm_brisbane. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
+- `Backend BB84_error Y_g_CASCADE.py`  --> This is the code of a BB84 protocol simulation using IBM's real backend ibm_brisbane. Again, Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match. The quantum channel has a bitflip+phaseshif error probability g.
+      - The results of this code are saved at `Simulation results.txt`
