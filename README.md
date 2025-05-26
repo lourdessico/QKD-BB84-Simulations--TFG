@@ -1,5 +1,5 @@
 # QKD-BB84-Simulations--TFG
-This repository contains the code used in the BB84 Quantum Key Distribution protocol simulations, developed as part of the undergraduate thesis of Lourdes Simón Codina.
+This repository contains the code used in the BB84 Quantum Key Distribution protocol simulations, developed as part of the undergraduate thesis of Lourdes Simón Codina. They are implemented using IBM's Qiskit framework.
 
 ### Codes explanation
 - `AerSim_eavesdropping.py`  --> This is the code of a BB84 protocol simulation with eavesdropping classical attack using AerSimulator. Alice and Bob have the same basis, so we skip the step of discarding the bits where the basis do not match (since we do not use those for anything) and n=# bits of initial key/2 (because 50% would be discarted but we "already did that"). 
