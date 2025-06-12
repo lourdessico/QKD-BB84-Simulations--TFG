@@ -62,10 +62,3 @@ Prob. Eve correct: (0.25134000±0.00199056)
 Error caused by Eve and q: (0.25072727±0.00339596)
 Theoretical prob. of Eve measuring the right results:	0.25000000
 Theoretical prob. of Bob's measuring the wrong results:	0.25000000
-
-
-n = 100	q = 0.0	alpha = 1.0	beta = 0.0	angle = 2.7488936726152557
-Prob. Eve correct: (0.85324000±0.00159979)
-Error caused by Eve and q: (0.24636364±0.00333863)
-Theoretical prob. of Eve measuring the right results:	0.85355339
-Theoretical prob. of Bob's measuring the wrong results:	0.25000000
