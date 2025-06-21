@@ -110,7 +110,7 @@ sigma_detect = np.sqrt((d/s)*(1.0 - (d/s))/s) # Standard deviation of the probab
 with open("Backend_Prob_eve_correct.txt", "a", encoding="utf-8") as f:
     f.write(f"n = {n}\t Prob. Eve correct: ({np.mean(P_tot_eve_correct):.6f}\u00B1{sigma_error_eve:.6f})\n")
     f.write(f"Error caused by Eve: ({np.mean(P_tot_error_caused):.6f}\u00B1{sigma_error_caused:.6f})\n")
-    f.write(f"Theoretical prob. of Eve measuring the right results:\t{0.50:.6f}\n")
+    f.write(f"Theoretical prob. of Eve measuring the right results:\t{0.75:.6f}\n")
     f.write(f"Theoretical prob. of Bob's measuring the wrong results:\t{0.25:.6f}\n")
 
 with open("Backend_Detected eavesdropping.txt", "a") as f:
