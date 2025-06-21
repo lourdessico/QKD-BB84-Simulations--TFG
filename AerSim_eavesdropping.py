@@ -101,11 +101,12 @@ for i in tqdm(range(s)):
 P_tot_error_caused = np.array(P_tot_error_caused)
 P_tot_eve_correct = np.array(P_tot_eve_correct)
 
-# Calculate the mean and standard deviation of the probabilities and write it in a
+# Calculate the standard deviation of the probabilities
 sigma_error_eve = np.std(P_tot_eve_correct, ddof=1) / np.sqrt(len(P_tot_eve_correct))
 sigma_error_caused = np.std(P_tot_error_caused, ddof=1) / np.sqrt(len(P_tot_error_caused))
 sigma_detect = np.sqrt((d/s)*(1.0 - (d/s))/s) # Standard deviation of the probability of detecting Eve (binomial distribution)
 
+# Write the results it in a text file
 with open("Backend_Prob_eve_correct.txt", "a", encoding="utf-8") as f:
     f.write(f"n = {n}\t Prob. Eve correct: ({np.mean(P_tot_eve_correct):.6f}\u00B1{sigma_error_eve:.6f})\n")
     f.write(f"Error caused by Eve: ({np.mean(P_tot_error_caused):.6f}\u00B1{sigma_error_caused:.6f})\n")
