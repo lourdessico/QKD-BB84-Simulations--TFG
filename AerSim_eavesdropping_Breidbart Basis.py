@@ -87,24 +87,23 @@ for i in tqdm(range(s)):
     Eve_block = total_eve_key[start:end]
 
     size = max(1,round(n/3)) # Compare a third of the bits in the destilled keys obtained.
-    if size != 0: 
-        subset = np.random.choice(n, size=size, replace=False) # Select the bits to compare at random
 
-        alice_subset = Alice_block[subset] # generate the subsets I am going to compare
-        bob_subset = Bob_block[subset]
+    subset = np.random.choice(n, size=size, replace=False) # Select the bits to compare at random 
+    alice_subset = Alice_block[subset] # generate the subsets I am going to compare
+    bob_subset = Bob_block[subset]
 
-        # # Obtain the keys without the bits that were compared
-        # Alice_key = [alice_key[i] for i in range(len(alice_key)) if i not in subset]
-        # Bob_key   = [bob_key[i] for i in range(len(bob_key)) if i not in subset]
-            
-        # calculate the error caused by evaesdropping
-        P_error_caused= (np.count_nonzero(alice_subset != bob_subset))/size
-        P_tot_error_caused.append(P_error_caused)
-        if P_error_caused > 0: # If any of the bits compared do not match, Eve is detected (no noise in the quantum channel)
-            d += 1
+    # # Obtain the keys without the bits that were compared
+    # Alice_key = [alice_key[i] for i in range(len(alice_key)) if i not in subset]
+    # Bob_key   = [bob_key[i] for i in range(len(bob_key)) if i not in subset]
+    
+    # calculate the error caused by evaesdropping
+    P_error_caused= (np.count_nonzero(alice_subset != bob_subset))/size
+    P_tot_error_caused.append(P_error_caused)
+    if P_error_caused > 0: # If any of the bits compared do not match, Eve is detected (no noise in the quantum channel)
+        d += 1
 
-        P_eve_correct = np.count_nonzero(Alice_block == Eve_block)/n
-        P_tot_eve_correct.append(P_eve_correct)
+    P_eve_correct = np.count_nonzero(Alice_block == Eve_block)/n
+    P_tot_eve_correct.append(P_eve_correct)
 
 P_tot_error_caused = np.array(P_tot_error_caused)
 P_tot_eve_correct = np.array(P_tot_eve_correct)
