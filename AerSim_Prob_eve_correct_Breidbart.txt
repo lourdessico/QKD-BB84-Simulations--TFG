@@ -58,11 +58,7 @@ n = 48	 Prob. Eve correct: (0.858889±0.003061)
 Error caused by Eve: (0.252083±0.006349)
 Theoretical prob. of Eve measuring the right results:	0.500000
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
-n = 40	 Prob. Eve correct: (0.852667±0.002996)
-Error caused by Eve: (0.257179±0.006636)
-Theoretical prob. of Eve measuring the right results:	0.500000
-Theoretical prob. of Bob's measuring the wrong results:	0.250000
-n = 50	 Prob. Eve correct: (0.856733±0.002794)
+n = 51	 Prob. Eve correct: (0.856733±0.002794)
 Error caused by Eve: (0.248824±0.006245)
 Theoretical prob. of Eve measuring the right results:	0.500000
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
