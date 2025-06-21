@@ -111,7 +111,7 @@ P_tot_eve_correct = np.array(P_tot_eve_correct)
 # Calculate the standard deviation of the probabilities
 sigma_error_eve = np.std(P_tot_eve_correct, ddof=1) / np.sqrt(len(P_tot_eve_correct))
 sigma_error_caused = np.std(P_tot_error_caused, ddof=1) / np.sqrt(len(P_tot_error_caused))
-sigma_detect = np.sqrt((d/s)*(1.0 - (d/s))/s) # standard deviation of the probability of detecting Eve (binomial distribution)
+sigma_detect = np.sqrt((d/s)*(1.0 - (d/s))/s) # standard deviation of the probability of detecting Eve (d follows a binomial distribution)
 
 # Write the results it in a text file
 with open("Backend_Prob_eve_correct_Breidbart.txt", "a", encoding="utf-8") as f:
