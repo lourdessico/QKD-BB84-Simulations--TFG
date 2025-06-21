@@ -1,72 +1,72 @@
 n = 3	 Prob. Eve correct: (0.826667±0.012437)
 Error caused by Eve: (0.286667±0.026152)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 6	 Prob. Eve correct: (0.852778±0.007849)
 Error caused by Eve: (0.276667±0.017992)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 9	 Prob. Eve correct: (0.851852±0.006623)
 Error caused by Eve: (0.257778±0.014536)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 12	 Prob. Eve correct: (0.847222±0.006132)
 Error caused by Eve: (0.275000±0.013225)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 15	 Prob. Eve correct: (0.848889±0.005233)
 Error caused by Eve: (0.260000±0.010993)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 18	 Prob. Eve correct: (0.855926±0.004895)
 Error caused by Eve: (0.238889±0.010104)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 21	 Prob. Eve correct: (0.855079±0.004244)
 Error caused by Eve: (0.247143±0.009672)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 24	 Prob. Eve correct: (0.854306±0.004322)
 Error caused by Eve: (0.245000±0.008467)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 27	 Prob. Eve correct: (0.854321±0.003825)
 Error caused by Eve: (0.252963±0.008395)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 30	 Prob. Eve correct: (0.852889±0.003450)
 Error caused by Eve: (0.246667±0.007335)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 33	 Prob. Eve correct: (0.853131±0.003524)
 Error caused by Eve: (0.246364±0.007194)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 36	 Prob. Eve correct: (0.849630±0.003371)
 Error caused by Eve: (0.257222±0.007071)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 39	 Prob. Eve correct: (0.853761±0.003183)
 Error caused by Eve: (0.249744±0.007327)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 42	 Prob. Eve correct: (0.854048±0.003079)
 Error caused by Eve: (0.249762±0.006783)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 48	 Prob. Eve correct: (0.858889±0.003061)
 Error caused by Eve: (0.252083±0.006349)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 51	 Prob. Eve correct: (0.856733±0.002794)
 Error caused by Eve: (0.248824±0.006245)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 60	 Prob. Eve correct: (0.853500±0.002500)
 Error caused by Eve: (0.254333±0.005739)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
 n = 45	 Prob. Eve correct: (0.856222±0.003060)
 Error caused by Eve: (0.254000±0.006589)
-Theoretical prob. of Eve measuring the right results:	0.500000
+Theoretical prob. of Eve measuring the right results:	0.85355
 Theoretical prob. of Bob's measuring the wrong results:	0.250000
